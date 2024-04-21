@@ -1,0 +1,48 @@
+.locations {
+  margin: 91px 204px;
+  padding: 0 80px;
+  position: relative;
+}
+.next-btn,
+.back-btn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #131c36;
+  z-index: 1;
+}
+.back-btn {
+  right: auto;
+  left: 0;
+}
+.img {
+  height: 400px;
+  width: 450px;
+  border-radius: 10px;
+}
+.slide {
+  overflow-x: hidden;
+  transition: 0.5s;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+}
+.slide:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.slider {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  width: 290%;
+  text-align: center;
+  transition: 0.5s;
+}
